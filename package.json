@@ -18,7 +18,7 @@
     "prepare": "run-s build && husky install",
     "package:build": "yarn run build",
     "package:lint": "eslint src",
-    "test:ci": "run-p package:* && yarn test --watchAll=false",
+    "test:ci": "run-p package:* test",
     "test": "react-scripts test --env=jsdom",
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
