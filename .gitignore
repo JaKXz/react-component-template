@@ -12,8 +12,6 @@ lerna-debug.log*
 dist
 example/build
 
-.husky
-
 *.tsbuildinfo
 
 node_modules
