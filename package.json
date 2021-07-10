@@ -7,6 +7,7 @@
   "repository": "JaKXz/react-component-template",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
+  "types": "dist/index.d.ts",
   "source": "src/index.tsx",
   "engines": {
     "node": ">=14"
