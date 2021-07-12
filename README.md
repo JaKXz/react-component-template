@@ -45,12 +45,14 @@ cd example
 yarn start
 ```
 
-You should be able to change `src/index.tsx` and see your example hot reload.
+You should be able to change files in src that are used in your example, e.g. `./src/index.tsx` and see your example hot reload.
 
-### Test setup
+### `yarn test` / setup
 
 Tests are run via `react-scripts` from CRA.
 You can [customize the config as documented](https://create-react-app.dev/docs/running-tests/#initializing-test-environment).
+
+Tip: run tests without watch mode with `yarn test --watchAll=false`.
 
 ### Deploy `./example` to `gh-pages`
 
