@@ -52,6 +52,14 @@ You should be able to change `src/index.tsx` and see your example hot reload.
 Tests are run via `react-scripts` from CRA.
 You can [customize the config as documented](https://create-react-app.dev/docs/running-tests/#initializing-test-environment).
 
+### Deploy `./example` to `gh-pages`
+
+In the root of your project, run:
+
+```bash
+yarn deploy
+```
+
 ## License
 
 MIT © [JaKXz](https://github.com/JaKXz)
