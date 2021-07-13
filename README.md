@@ -1,16 +1,16 @@
 # react-component-template
 
-Quickly degit a modern [for now] react component template that is publish-ready with a gh-pages deployable example.
+Quickly degit a modern [for now] React component that is _publish-ready in one step_ with a gh-pages deployable example.
 
 > Inspired by [svelte-component-template](https://github.com/sveltejs/component-template) and [create-react-library](https://github.com/transitive-bullshit/create-react-library).
 
 ## Getting started
 
-> Replace `yarn` commands with whatever the equivalent is in your package manager.
+> Replace `yarn` commands with your package manager's equivalent.
 
 ### 0. Clone
 
-You can use GitHub's "Use this template" button or clone the project manually:
+Use GitHub's "Use this template" button or clone the project manually:
 
 ```bash
 npx degit jakxz/react-component-template <project-name>
@@ -27,10 +27,13 @@ yarn install
 
 Do a find and replace for `react-component-template` and replace all instances with the name that you want :)
 this keeps the template lean, removing the need for any additional scripting.
+You are now able to publish your package to npm! :tada:
 
-### 2. Rollup Options can be found at https://github.com/developit/microbundle#readme
+### 2. `rollup` options can be found at https://github.com/developit/microbundle#readme
 
-The defaults are set to work with the latest version of React (v17+) at time of writing.
+The defaults are set to work with the latest version of React (v17 at time of writing) and should suffice for most projects.
+
+The React peer dependency [for consumers] is set by default to >=16.8, assuming the use of React hooks.
 
 ## Workflow
 
@@ -38,7 +41,7 @@ The defaults are set to work with the latest version of React (v17+) at time of 
 yarn start
 ```
 
-Then, open a new terminal tab your project directory:
+Then, open a new terminal tab in your project directory:
 
 ```bash
 cd example
@@ -61,6 +64,9 @@ In the root of your project, run:
 ```bash
 yarn deploy
 ```
+
+The example is just a standard (pre-ejected) CRA app whose dependencies are linked to the root folder (your React component).
+If you are adding more dependencies that will be shared with both the example & the React component, add them to the root `package.json` follow the `link:../node_modules/<dep>` pattern in `./example/package.json`.
 
 ## License
 
