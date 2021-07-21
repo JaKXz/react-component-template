@@ -28,6 +28,7 @@ yarn install
 Do a find and replace for `react-component-template` and replace all instances with the name that you want :)
 this keeps the template lean, removing the need for any additional scripting.
 You are now able to publish your package to npm! :tada:
+For "a better `npm publish`", try [`np`](https://npm.im/np).
 
 ### 2. `rollup` options can be found at https://github.com/developit/microbundle#readme
 
