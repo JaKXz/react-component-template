@@ -20,6 +20,7 @@
     "lint": "eslint src",
     "package:build": "yarn run build",
     "package:lint": "yarn run lint",
+    "package:type-check": "yarn run tsc",
     "test:ci": "run-p package:* test",
     "test": "react-scripts test --env=jsdom",
     "predeploy": "cd example && yarn install && yarn run build",
