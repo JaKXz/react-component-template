@@ -1,6 +1,6 @@
 # react-component-template
 
-Quickly degit a modern [for now] React component that is _publish-ready in one step_ with a gh-pages deployable example.
+Quickly degit a modern [for now] React component that is _publish-ready in one step_ with a gh-pages deployable example that has [profiling](https://reactjs.org/docs/profiler.html) [enabled by default](https://gist.github.com/bvaughn/25e6233aeb1b4f0cdb8d8366e54a3977).
 
 > Inspired by [svelte-component-template](https://github.com/sveltejs/component-template) and [create-react-library](https://github.com/transitive-bullshit/create-react-library).
 
