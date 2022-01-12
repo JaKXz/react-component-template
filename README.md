@@ -46,6 +46,7 @@ Then, open a new terminal tab in your project directory:
 
 ```bash
 cd example
+yarn
 yarn start
 ```
 
